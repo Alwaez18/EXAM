@@ -1,0 +1,39 @@
+.header-bottom
+{
+    margin-top: 20px;
+    height: 72px;
+}
+.header-bottom-flex
+{
+    display: flex;
+    gap: 24px;
+}
+.header-bottom-all__input
+{
+    width: 613px;
+}
+.header-bottom-all-block__tel
+{
+    font-size: 24px;
+    text-align: center;
+}
+.header-bottom-all-block__text
+{
+    font-size: 12px;
+}
+.header-bottom__button
+{
+    border: none;
+    padding: 24px 48px;
+    background-color: #F5D547;
+}
+.header-bottom__button-black
+{
+    padding: 24px 48px;
+    background-color: black;
+    color: white;
+}
+.header-bottom-all__input
+{
+    margin-left:270px ;
+}

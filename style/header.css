@@ -1,0 +1,26 @@
+.header-flex
+{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left__nav__links
+{
+    text-decoration: none;
+    color: black;
+}
+.header-left__nav
+{
+    display: flex;
+    gap: 48px;
+}
+.header-right__nav
+{
+    display: flex;
+    gap: 48px;
+}
+.header-right__nav__links
+{
+    text-decoration: none;
+    color: black;
+}
