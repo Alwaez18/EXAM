@@ -7,6 +7,7 @@
 {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
 }
 .header-bottom-all__input
 {
@@ -17,23 +18,56 @@
     font-size: 24px;
     text-align: center;
 }
-.header-bottom-all-block__text
+.header-bottom-all-block__text 
 {
     font-size: 12px;
+    color: gray;
+    opacity: 40%;
 }
 .header-bottom__button
 {
     border: none;
     padding: 24px 48px;
     background-color: #F5D547;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+.header-bottom__button:hover
+{
+    background-color: black;
+    color: white;
+    scale: 1.1;
 }
 .header-bottom__button-black
 {
     padding: 24px 48px;
     background-color: black;
     color: white;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.header-bottom__button-black:hover
+{
+    border: none;
+    background-color: #F5D547;
+    color: black;
+    scale: 1.1;
+}
+.header-bottom-block
+{
+    display: flex;
+    gap: 24px;
 }
 .header-bottom-all__input
 {
-    margin-left:270px ;
+    padding: 0 50px;
+    box-shadow: black;
 }
+.img-absolut
+{
+    position: absolute;
+    top: 98px;
+    left: 538px;
+}
+.header-bottom__title{ padding: 20px 0; }
+.header-bottom-all-block { padding: 20px 0; }
