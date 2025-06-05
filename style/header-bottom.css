@@ -61,13 +61,18 @@
 .header-bottom-all__input
 {
     padding: 0 50px;
+    height: 100%;
     box-shadow: black;
 }
 .img-absolut
 {
     position: absolute;
-    top: 98px;
-    left: 538px;
+    left: 10px;
+    top: 27px;
 }
 .header-bottom__title{ padding: 20px 0; }
 .header-bottom-all-block { padding: 20px 0; }
+.relative
+{
+    position: relative;
+}
